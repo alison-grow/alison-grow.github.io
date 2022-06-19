@@ -1,0 +1,31 @@
+/* MEDIA QUERIES */
+@media screen and (min-width:320px)  {
+    div.contactform{
+        width: 75%;
+        align-self: center;
+    }
+    }
+
+@media (min-width:481px)  { 
+    
+    }
+
+@media screen and (min-width:641px)  {
+    div.contactform{
+        width: 45%;
+    }
+    }
+
+@media (min-width:961px)  { 
+
+    }
+
+@media (min-width:1025px) { 
+
+    }
+
+@media (min-width:1281px) { 
+
+    }
+/* END MEDIA QUERIES */
+/* BEGINNING OF STYLING */

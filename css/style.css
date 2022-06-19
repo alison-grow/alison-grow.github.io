@@ -1,0 +1,115 @@
+/* MEDIA QUERIES */
+@media screen and (min-width:320px)  {
+    div.example {
+        font-size: 30px;
+        color: brown;
+    }
+    div.contactform{
+        width: 75%;
+        align-self: center;
+    }
+    }
+
+@media (min-width:481px)  { 
+    
+    }
+
+@media (min-width:641px)  {
+    div.example {
+        font-size: 80px;
+        color: blueviolet;
+    }
+    div.contactform{
+        width: 50%;
+    }
+    }
+
+@media (min-width:961px)  { 
+
+    }
+
+@media (min-width:1025px) { 
+
+    }
+
+@media (min-width:1281px) { 
+
+    }
+/* END MEDIA QUERIES */
+
+/* BEGINNING OF STYLING */
+
+body{
+
+}
+
+/* BEGINNING OF NAVBAR */
+
+.navbar {
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #547b84;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #78a79e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #9cd3b8;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* END OF NAVBAR */
+
+
+
+.jumbotron{
+    background-image: linear-gradient(90deg,
+        #9cd3b8 50%,
+        #c0ffd1 50%,
+        #C0ffd1 80%);
+}
