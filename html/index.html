@@ -14,15 +14,15 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Alison Grow Final Project</title>
   </head>
-<body class="d-flex flex-column min-vh-100" style="background-color: #fff589;">
+<body class="d-flex flex-column min-vh-100" style="background-color: #181818">
 
 <!-- BEGINNING OF NAVBAR -->
 
 <!-- WHY WONT NAVBAR FLOAT RIGHT??? -->
 
-<div class="navbar" style="background-color: #b16248;">
+<div class="navbar" style="background-color: #2a1825;">
   <div class="dropdown">
-    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
       Menu
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -48,12 +48,12 @@
 <!-- BEGINNING OF JUMBOTRON -->
 <div class="p-5 jumbotron" style="background-color: #78a79b;">
     <div class="container">
-        <h1 class="display-3 text-center">Alison Grow</h1>
-        <p class="lead">Jumbo helper text</p>
-        <hr class="my-2">
-        <p>More info</p>
+        <h1 class="display-3 text-center" style="color: #C4C4C4;">Alison Grow</h1>
+        <p class="lead" style="color: #c4c4c4;">Jumbo helper text</p>
+        <hr class="my-2" style="color: #C4C4C4;">
+        <p style="color: #C4C4C4;">More info</p>
         <p class="lead">
-            <a class="btn btn-lg text-white" style="background-color: #2f4f6a;" href="#" role="button">Jumbo action name</a>
+            <a class="btn btn-lg text-white" style="background-color: #50083b;" href="#" role="button">Jumbo action name</a>
         </p>
     </div>
 </div>
@@ -93,7 +93,18 @@
         <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
         <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
       </div>
-  
+      
+      <!-- select input -->
+      <label for="sel1" class="form-label text-white fs-5">
+        Select list (select one):
+      </label>
+      <select class="form-select" id="sel1" name="sellist1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+
       <!-- Message input -->
       <div class="mb-3">
         <label class="form-label text-white fs-5" for="message">Message</label>
@@ -123,33 +134,29 @@
 <!-- END OF CONTACT FORM -->
 <!-- BEGINNING OF FOOTER -->
 
-<footer class="text-center text-white mt-auto" style="background-color: #b16248;">
+<footer class="text-center text-white mt-auto" style="background-color: #040120;">
     <!-- beginning grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
         <section class="mb-4">
             <!-- Facebook -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-                <i class="fab fa-facebook-f"></i>
+            <a class="btn btn-outline-light rounded-circle m-2" href="https://www.facebook.com/" role="button" target="_blank">
+                <i class="fab fa-facebook-square"></i>
             </a>
             <!-- Twitter -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+            <a class="btn btn-outline-light rounded-circle m-2" href="https://twitter.com/?lang=en" role="button" target="_blank">
                 <i class="fab fa-twitter"></i>
             </a>
-            <!-- Google -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-                <i class="fab fa-google"></i>
+            <!-- Slack -->
+            <a class="btn btn-outline-light rounded-circle m-2" href="https://slack.com/workspace-signin" role="button" target="_blank">
+                <i class="fab fa-slack"></i>
             </a>
             <!-- Instagram -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+            <a class="btn btn-outline-light rounded-circle m-2" href="https://www.instagram.com/?hl=en" role="button" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
             <!-- Github -->
-            <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+            <a class="btn btn-outline-light rounded-circle m-2" href="https://github.com/alison-grow" role="button" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
         </section>

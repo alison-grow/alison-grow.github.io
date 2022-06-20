@@ -1,0 +1,62 @@
+/* MEDIA QUERIES */
+@media screen and (min-width:320px)  {
+    div.example {
+        font-size: 30px;
+        color: #f73693;
+    }
+    div.contactform{
+        width: 75%;
+        align-self: center;
+    }
+    div.accordion{
+        width: 80%;
+    }
+}
+
+@media (min-width:481px)  { 
+    div.example {
+    font-size: 80px;
+    color: #50083B;
+    }
+}
+
+@media (min-width:641px)  {
+    div.example {
+    font-size: 100px;
+    color: #ffa1dd;
+    }
+    div.contactform{
+        width: 50%;
+    }
+    div.accordion{
+        width: 75%;
+    }
+}
+
+@media (min-width:961px)  { 
+  div.example{
+    font-size: 115px;
+    color: #C4C4C4;
+  }
+    }
+
+@media (min-width:1025px) { 
+
+    }
+
+@media (min-width:1281px) { 
+
+    }
+/* END MEDIA QUERIES */
+
+/* BEGINNING OF STYLING */
+
+body{
+
+}
+::selection{
+	background-color: #d97217;
+  color: white;
+}
+
+/* BEGINNING OF NAVBAR */

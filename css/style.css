@@ -2,7 +2,7 @@
 @media screen and (min-width:320px)  {
     div.example {
         font-size: 30px;
-        color: brown;
+        color: #f73693;
     }
     div.contactform{
         width: 75%;
@@ -11,21 +11,27 @@
     }
 
 @media (min-width:481px)  { 
-    
+  div.example {
+    font-size: 80px;
+    color: #50083B;
+  }
     }
 
 @media (min-width:641px)  {
-    div.example {
-        font-size: 80px;
-        color: blueviolet;
-    }
+  div.example {
+    font-size: 100px;
+    color: #ffa1dd;
+  }
     div.contactform{
         width: 50%;
     }
     }
 
 @media (min-width:961px)  { 
-
+  div.example{
+    font-size: 115px;
+    color: #C4C4C4;
+  }
     }
 
 @media (min-width:1025px) { 
@@ -42,6 +48,10 @@
 body{
 
 }
+::selection{
+	background-color: #d97217;
+  color: white;
+}
 
 /* BEGINNING OF NAVBAR */
 
@@ -52,7 +62,7 @@ body{
   .navbar a {
     float: right;
     font-size: 16px;
-    color: white;
+    color: #ffa1dd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,7 +77,7 @@ body{
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: #ffa1dd;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -104,12 +114,12 @@ body{
     display: block;
   }
 /* END OF NAVBAR */
-
-
+/* BEGINNING OF JUMBOTRON */
 
 .jumbotron{
     background-image: linear-gradient(90deg,
-        #9cd3b8 50%,
-        #c0ffd1 50%,
-        #C0ffd1 80%);
+        #490134 50%,
+        #7f3a6a 50%);
 }
+/* END OF JUMBOTRON */
+/* BEGINNING OF CONTACT FORM */

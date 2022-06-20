@@ -1,23 +1,39 @@
 /* MEDIA QUERIES */
 @media screen and (min-width:320px)  {
     div.contactform{
-        width: 75%;
+        width: 100%;
         align-self: center;
     }
-    }
+}
 
 @media (min-width:481px)  { 
     
-    }
+}
 
-@media screen and (min-width:641px)  {
+@media screen and (max-width:641px)  {
     div.contactform{
-        width: 45%;
+        width: 100%;
+        align-self: center;
     }
+    div.images{
+        visibility: hidden;
     }
+    div.col-6{
+        width: 500px;
+        margin: auto;
+    }
+    div.col-3{
+       display: none;
+    }
+}
 
 @media (min-width:961px)  { 
-
+    div.images{
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     }
 
 @media (min-width:1025px) { 
