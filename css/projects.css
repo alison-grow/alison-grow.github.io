@@ -49,14 +49,24 @@
     }
 /* END MEDIA QUERIES */
 
-/* BEGINNING OF STYLING */
-
-body{
-
-}
 ::selection{
-	background-color: #d97217;
+	background-color: #ffa1dd;
   color: white;
 }
 
+
+.form-control:focus {
+    border-color: #d3b6b6;
+    box-shadow: 0px 1px 1px rgba(211, 182, 182, 0.5) inset, 0px 0px 8px rgba(211, 182, 182, 0.5);
+}
+
 /* BEGINNING OF NAVBAR */
+/* END OF NAVBAR */
+/* BEGINNING OF ACCORDION */
+
+.accordion .accordion-item {
+    background-color: #fcc7b5;
+}
+.accordion .accordion-button {
+    background-color: #bb5f5f;
+}

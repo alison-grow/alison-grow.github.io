@@ -14,21 +14,48 @@
     <link rel="stylesheet" href="/css/contact.css">
     <title>Contact Me</title>
   </head>
-  <body class="d-flex flex-column min-vh-100" style="background-color: #fff589;">
+  <body class="d-flex flex-column min-vh-100" style="background-color: #8f6666;">
 <!-- BEGINNING OF NAVBAR -->
 
-<nav class="navbar navbar-light" style="background-color: #b16248;">
+<!-- <nav class="navbar navbar-light" style="background-color: #444444;">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="/img/hibiscus.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
-          NAVBAR
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
       </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </li>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-sm justify-content-end" style="height: 60px; background-color: #444;">
+  <div class="dropdown mx-3">
+    <a class="btn dropdown-toggle text-white" style="background-color: #bb5f5f;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <ul class="dropdown-menu" style="background-color: #fcc7b5;" aria-labelledby="dropdownMenuLink">
+      <li>
+        <a class="dropdown-item" style="color: #301934;" href="#">Home</a>
+      </li>
+      <li>
+        <a class="dropdown-item" style="color: #301934;" href="#">Projects</a>
+      </li>
+      <li>
+        <a class="dropdown-item" style="color: #301934;" href="#">Contact</a>
+      </li>
+    </ul>
   </div>
 </nav>
 
 <!-- END OF NAVBAR -->
 <!-- BEGINNING OF JUMBOTRON -->
-<div class="p-5 jumbotron" style="background-color: #78a79b;">
+<div class="p-5 jumbotron" style="background-color: #5b5b5b;">
   <div class="container">
       <h1 class="display-3 text-center">Contact Me!</h1>
       <p class="lead">Jumbo helper text</p>
@@ -43,16 +70,20 @@
 
 <div class="row align-items-center my-4 mx-2">
   <div class="col-3 images">
-    <img src="/img/cake.png" class="my-4" style="height: 100px; width: 100px;" alt="cake">
-    <img src="/img/pumpkin-pie.png" class="my-4 img-fluid" style="height: 100px; width: 100px;" alt="pumpkin pie">
-    <img src="/img/chocolate.png" class="my-4" style="height: 100px; width: 100px;" alt="chocolate covered donut">
+    <img src="/img/computer (1).png" class="my-4" style="height: 100px; width: 100px;" alt="cake">
+    <!-- Computer icon created by Freepik - Flaticon -->
+    <img src="/img/cloud-network.png" class="my-4 img-fluid" style="height: 100px; width: 100px;" alt="pumpkin pie">
+    <!-- Cloud icon created by Freepik - Flaticon -->
+    <img src="/img/girl.png" class="my-4" style="height: 100px; width: 100px;" alt="chocolate covered donut">
+    <!-- Girl icon created by Freepik - Flaticon -->
+
   </div>
   <div class="col-6">
 
 <!-- BEGINNING OF CONTACT FORM -->
 
 <div class="contactform">
-  <div class="container rounded-3 py-4" style="background-color: #547b84;">
+  <div class="container rounded-3 py-4" style="background-color: #d88080;">
       <form id="contactForm">
           <h5 class="text-white fs-1 text-center py-2">Send Me an Email</h5>
     
@@ -77,6 +108,12 @@
           <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
           <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
         </div>
+
+        <!-- authentication -->
+        <div class="form-check form-switch my-3">
+          <input class="form-check-input" type="checkbox" id="mySwitch" name="robot" value="yes">
+          <label class="form-check-label" for="mySwitch">I am not a robot</label>
+        </div>
     
         <!-- Form submissions success message -->
         <div class="d-none" id="submitSuccessMessage">
@@ -90,7 +127,7 @@
     
         <!-- Form submit button -->
         <div class="d-grid">
-          <button class="btn btn-lg text-white fs-5" style="background-color: #2f4f6a;" type="submit">Submit</button>
+          <button class="btn btn-lg text-white fs-5" style="background-color: #bb5f5f;" type="submit">Submit</button>
         </div>
     
     </form>
@@ -101,9 +138,12 @@
 </div>
 
 <div class="col-3 images">
-  <img src="/img/cake.png" class="my-4" style="height: 100px; width: 100px;" alt="cake">
-  <img src="/img/pumpkin-pie.png" class="my-4" style="height: 100px; width: 100px;" alt="pumpkin pie">
-  <img src="/img/chocolate.png" class="my-4" style="height: 100px; width: 100px;" alt="chocolate covered donut">
+  <img src="/img/computer (1).png" class="my-4" style="height: 100px; width: 100px;" alt="cake">
+    <!-- Computer icon created by Freepik - Flaticon -->
+    <img src="/img/cloud-network.png" class="my-4 img-fluid" style="height: 100px; width: 100px;" alt="pumpkin pie">
+    <!-- Cloud icon created by Freepik - Flaticon -->
+    <img src="/img/girl.png" class="my-4" style="height: 100px; width: 100px;" alt="chocolate covered donut">
+    <!-- Girl icon created by Freepik - Flaticon -->
   </div>
 </div>
 
@@ -112,37 +152,36 @@
 
 <!-- BEGINNING OF FOOTER -->
 
-<footer class="text-center text-white mt-auto" style="background-color: #b16248;">
+<footer class="text-center text-white mt-auto" style="background-color: #444;">
+  <!-- beginning grid container -->
   <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
           <!-- Facebook -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-              <i class="fab fa-facebook-f"></i>
+          <a class="btn btn-outline-light rounded-circle m-2" href="https://www.facebook.com/" role="button" target="_blank">
+              <i class="fab fa-facebook-square"></i>
           </a>
           <!-- Twitter -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+          <a class="btn btn-outline-light rounded-circle m-2" href="https://twitter.com/?lang=en" role="button" target="_blank">
               <i class="fab fa-twitter"></i>
           </a>
-          <!-- Google -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-              <i class="fab fa-google"></i>
+          <!-- Slack -->
+          <a class="btn btn-outline-light rounded-circle m-2" href="https://slack.com/workspace-signin" role="button" target="_blank">
+              <i class="fab fa-slack"></i>
           </a>
           <!-- Instagram -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+          <a class="btn btn-outline-light rounded-circle m-2" href="https://www.instagram.com/?hl=en" role="button" target="_blank">
               <i class="fab fa-instagram"></i>
           </a>
-          <!-- Linkedin -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
-              <i class="fab fa-linkedin-in"></i>
-          </a>
           <!-- Github -->
-          <a class="btn btn-outline-light rounded-circle m-1" href="#!" role="button">
+          <a class="btn btn-outline-light rounded-circle m-2" href="https://github.com/alison-grow" role="button" target="_blank">
               <i class="fab fa-github"></i>
           </a>
       </section>
   </div>
+  <!-- end grid container -->
 </footer>
+
 
 <!-- END OF FOOTER -->
 

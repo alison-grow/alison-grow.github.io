@@ -43,13 +43,8 @@
     }
 /* END MEDIA QUERIES */
 
-/* BEGINNING OF STYLING */
-
-body{
-
-}
 ::selection{
-	background-color: #d97217;
+	background-color: #ffa1dd;
   color: white;
 }
 
