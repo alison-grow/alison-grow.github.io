@@ -1,44 +1,39 @@
 /* MEDIA QUERIES */
 @media screen and (min-width:320px)  {
-    div.example {
-        font-size: 30px;
-        color: #f73693;
-    }
-    div.contactform{
-        width: 75%;
-        align-self: center;
-    }
     div.accordion{
         width: 80%;
     }
 }
 
 @media (min-width:481px)  { 
-    div.example {
-    font-size: 80px;
-    color: #50083B;
-    }
+
 }
 
-@media (min-width:641px)  {
-    div.example {
-    font-size: 100px;
-    color: #ffa1dd;
+@media screen and (max-width:641px)  {
+    div.images{
+        visibility: hidden;
     }
-    div.contactform{
-        width: 50%;
+    div.col-8{
+        width: 700px;
+        margin: auto;
     }
-    div.accordion{
-        width: 75%;
+    div.col-2{
+       display: none;
     }
 }
 
 @media (min-width:961px)  { 
-  div.example{
-    font-size: 115px;
-    color: #C4C4C4;
-  }
+    div.images{
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    div.col-6{
+        width: 600px;
+        margin: auto;
+    }
+}
 
 @media (min-width:1025px) { 
 
@@ -54,6 +49,18 @@
   color: white;
 }
 
+/* NAVBAR */
+
+.btn:active{
+    background: #874a4a;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-color: #5b5b5b;
+    background-image: linear-gradient(45.34deg, #874a4a 5.66%, #5b5b5b 94.35%);
+  }
 
 .form-control:focus {
     border-color: #d3b6b6;
@@ -69,4 +76,5 @@
 }
 .accordion .accordion-button {
     background-color: #bb5f5f;
+    font-size: 22px;
 }

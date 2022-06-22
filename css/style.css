@@ -48,73 +48,19 @@
   color: white;
 }
 
-/* BEGINNING OF NAVBAR */
+/* NAVBAR */
 
-.navbar {
-    overflow: hidden;
-  }
-  
-  .navbar a {
-    float: right;
-    font-size: 16px;
-    color: #ffa1dd;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: right;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: #ffa1dd;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #547b84;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #78a79e;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #9cd3b8;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-/* END OF NAVBAR */
+.btn:active{
+  background: #874a4a;
+}
+
+/* END NAVABR */
 /* BEGINNING OF JUMBOTRON */
 
 .jumbotron{
-    background-image: linear-gradient(90deg,
-        #490134 50%,
-        #7f3a6a 50%);
+  background-color: #5b5b5b;
+  background-image: linear-gradient(45.34deg, #874a4a 5.66%, #5b5b5b 94.35%);
 }
+
 /* END OF JUMBOTRON */
 /* BEGINNING OF CONTACT FORM */
