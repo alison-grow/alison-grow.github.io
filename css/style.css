@@ -4,9 +4,9 @@
         font-size: 30px;
         color: #f73693;
     }
-    div.contactform{
-        width: 75%;
-        align-self: center;
+    div.col{
+      width: 450px;
+      height: 450px;
     }
     }
 
@@ -22,10 +22,11 @@
     font-size: 100px;
     color: #ffa1dd;
   }
-    div.contactform{
-        width: 50%;
-    }
-    }
+  div.col{
+    width: 500px;
+    height: 500px;
+  }
+}
 
 @media (min-width:961px)  { 
   div.example{
@@ -63,4 +64,20 @@
 }
 
 /* END OF JUMBOTRON */
-/* BEGINNING OF CONTACT FORM */
+img{
+  align-self: center;
+}
+.col{
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #bb5f5f;
+ }
+ ul {
+  list-style: none;
+  padding-inline-start: 2px;
+}
+
+#aboutme ul li:before {
+  content: "\2665";
+}
